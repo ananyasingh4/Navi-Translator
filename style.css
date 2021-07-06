@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dancing Script', cursive;
+}
+body{
+    background-image: url(avtar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.head{
+    /*font-family: 'Roboto', sans-serif;*/
+    background-color: rgb(17 118 140 / 90%);
+    color: #022d44;
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 20px;
+    margin-bottom: 18px;
+}
+.center{
+    text-align: center;
+}
+.text-input{
+    box-sizing: border-box;
+    width: 700px;
+    min-height: 18vh;
+    font-size: 31px;
+    padding-left: 8px;
+    border: none;
+    border-radius: 8px;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 8px 8px 10px  #011b29b9;  
+}
+.button{
+    background-color: rgb(17 118 140 / 90%);
+    color: #022d44;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 20px 20px;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 10px 10px 15px  #011b29b9;
+    align-content: center;
+    justify-content: center;
+    
+}
+.button:hover{
+    color:black;
+    opacity: 0.9;
+    box-shadow: 5px 5px 10px  #011b2983;
+    transition-delay: 400ms;
+}
+.text-output{
+    box-sizing: border-box;
+    width: 700px;
+    min-height: 18vh;
+    font-size: 30px;
+    border: none;
+    border-radius: 8px;
+    background-color: white;
+    overflow: scroll;
+    margin-top: 15px;
+    box-shadow: 8px 8px 10px  #011b29b9;  
+}
+.footer{
+    background-color: rgb(17 118 140 / 90%);
+    color: #011b29;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    padding: 6px;
+    top: 520px;
+    bottom: 0;
+}
+.about{
+    font-size: 33px;
+    font-weight: 600;
+}
+.text{
+    margin: auto;
+    max-width: 650px;
+    font-size: 25px;
+    font-weight: 550;
+}
